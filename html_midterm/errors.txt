@@ -1,0 +1,10 @@
+Error 1: No <!DOCTYPE html> tag on line 1, it just needs to be added
+Error 2: Second <html> opening tag on line 4, this can be deleted and the language attribute can be put in the first <html> tag
+Error 3: No </h1> closing tag on line 9
+Error 4: No <p> opening tag on line 11
+Error 5: 2 closing tags on line 19 instead of an open and closing tag
+Error 6: Ordered list has a unordered list closing tag on line 24
+Error 7: No </p> closing tag
+Error 8: No alt attribute in <img> tag on line 28
+Error 9: src is "Image.png" when the file is a jpg. Changed to "Image.jpg"
+Error 10: <a> tag had an </img> closing tag. Changed to </a>
