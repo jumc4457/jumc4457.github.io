@@ -1,10 +1,25 @@
-Error 1: No <!DOCTYPE html> tag on line 1, it just needs to be added
+Error 1: No <!DOCTYPE html> tag on line 1
 Error 2: Second <html> opening tag on line 4, this can be deleted and the language attribute can be put in the first <html> tag
-Error 3: No </h1> closing tag on line 9
-Error 4: No <p> opening tag on line 11
-Error 5: 2 closing tags on line 19 instead of an open and closing tag
-Error 6: Ordered list has a unordered list closing tag on line 24
-Error 7: No </p> closing tag
-Error 8: No alt attribute in <img> tag on line 28
-Error 9: src is "Image.png" when the file is a jpg. Changed to "Image.jpg"
-Error 10: <a> tag had an </img> closing tag. Changed to </a>
+Error 3: Missing <meta charset=>. added on line 5
+Error 4: No </head> closing tag. Added on line 8
+Error 5: No </h1> closing tag on line 9
+Error 6: No <p> opening tag on line 11
+Error 7: 2 closing tags on line 19 instead of an open and closing tag
+Error 8: Ordered list has a unordered list closing tag on line 24
+Error 9: No </p> closing tag
+Error 10: No alt attribute in <img> tag on line 28
+Error 11: src is "Image.png" when the file is a jpg. Changed to "Image.jpg" Line 28
+Error 12: There was not a page break between the image and the link on line 28 and 30
+Error 13: <a> tag had an </img> closing tag on 30. Changed to </a>
+Error 14: There is no </table> closing tag on line 45
+Error 15: src is .jpeg when it should be .jpg. Line 46
+Error 16. Also on line 46 it is "source=" instead of "src="
+Error 17: No <p> opening or closings tags around text on line 49
+Error 18: The text on line 49 implied there being strikethrough on the text so I added the <s> tags
+Error 19: Line 51 you cannot use bgcolor on a paragraph.
+Error 20: Comment on line 55 did not have the closing arrow
+Error 21: Link on line 57 did not have an </a> closing tag
+Error 22: </em> closing tag on line 59 needed to be put before the </p> closing tag
+Error 23: on line 62 the description item title is in <li> tags when it needs to be in <dt> tags
+Error 24: on line 62 the item description is in <li> tags and needs to be in <dd> tags
+Error 25: on line 65 the <h2> header is closed with an </h3> tag
