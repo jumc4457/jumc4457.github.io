@@ -23,3 +23,19 @@ Error 22: </em> closing tag on line 59 needed to be put before the </p> closing 
 Error 23: on line 62 the description item title is in <li> tags when it needs to be in <dt> tags
 Error 24: on line 62 the item description is in <li> tags and needs to be in <dd> tags
 Error 25: on line 65 the <h2> header is closed with an </h3> tag
+
+Error 26: No <html> opening tag, line 2
+Error 27: No meta charset, line 4
+Error 28: <h1> header is in the head on line 6. I will move it to the body on line 
+Error 29: Line 7 <body> opening tag is missing a ">"
+Error 30: Line 9 why is there an <html> opening tag here? Deleting it
+Error 31: No </strong> closing tag on line 11
+Error 32: No </p> closing tag on line 11
+Error 33: No </div> closing tag. Added one on line 12
+Error 34: img uses "href" instead of "src" on line 14
+Error 35: image address was missing an underscore on line 14
+Error 36: No page break after image on line 14
+Error 37: no <h2> opening tag on line 16
+Error 38: No <p> opening tag on line 18
+Error 39: That's not a comment. Changed line 19 to make it function as a comment
+Error 40: </html> closing tag was missing the letter "L" on line 22
