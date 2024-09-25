@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 1em;
     margin: 0;
-    border-bottom: dotted purple;
+    border-bottom: 10px dotted purple;
   }
 
   h1 {
@@ -16,6 +16,7 @@ body {
 
   h2 {
     font-size: 1.5em;
+    font-style: italic;
   }
 
   .job-title {
@@ -30,4 +31,11 @@ body {
 
   a:hover {
     text-decoration: none;
+    color: green;
+  }
+
+  ul {
+    background-color: #eeeeee;
+    padding: 30px;
+    border: 5px solid purple;
   }
