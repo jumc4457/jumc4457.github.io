@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas {
+          border: 1px solid black;
+        }
+      </style>
+</head>
+<body>
+    <button id="datebutton" type="button">Click this for current date!</button>
+    <h1>Draw!!!!!</h1>
+    <canvas id="myCanvas" width="700" height="500"></canvas>
+    <script>
+        let d = new Date();
+        document.getElementById("datebutton").addEventListener("click", function(d){alert("Today's date is " +Date())});
+        const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+let isDrawing = false;
+let lastX = 0;
+let lastY = 0;
+
+canvas.addEventListener('mousedown', e => {
+  isDrawing = true;
+  [lastX, lastY] = [e.offsetX, e.offsetY];
+});
+
+canvas.addEventListener('mousemove', e => {
+  if (isDrawing) {
+    ctx.beginPath();
+    ctx.moveTo(lastX, lastY);
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.stroke();
+    [lastX, lastY] = [e.offsetX, e.offsetY];
+  }
+});
+
+canvas.addEventListener('mouseup', () => {
+  isDrawing = false;
+});
+    </script>
+</body>
+</html>
