@@ -11,6 +11,8 @@ calculateDogAge(0);
 reverseNum(123456);
 reverseNum(789);
 
+/*alphabetical("ghtusj");*/
+
 
 
 
@@ -33,10 +35,21 @@ function reverseNum(num) {
 }
 
 function alphabetical(string) {
-    let len = string.length();
+    let len = string.length;
     for (i=0; i<len; i++) {
-        
+        let current = string[i]
+        for (j=i+1; j<len; j++) {
+            if (current>string[j]) {
+                let temp = string[j];
+                string[j]=string[i];
+                string[i]=temp;
+            }
+            else {
+                continue;
+            }
+        }
     }
+    output+=string+"<br>";
 
 }
 
