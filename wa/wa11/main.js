@@ -24,3 +24,21 @@ newImage.addEventListener('click', e => {
 
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener("click", e=> {
+
+
+if (e.target.getAttribute("class") === "dark") {
+    e.target.setAttribute("class", "light");
+    e.target.textContent = "Lighten";
+    overlay.style.backgroundColor = "rgb(0 0 0 / 50%)";
+}
+else {
+    e.target.setAttribute("class", "dark");
+    e.target.textContext = "Darken";
+    overlay.style.backgroundColor = "rgb(0 0 0 / 0%)";
+}
+}
+);
+
+
+
