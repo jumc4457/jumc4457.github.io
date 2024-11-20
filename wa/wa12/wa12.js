@@ -13,8 +13,12 @@ fetch("https://corsproxy.io/?https://xkcd.com/"+String(comicNum)+"/info.0.json")
     .then(res => {
         myData = res;
         console.log(myData);
+        let date = myData.month+'/'+myData.day+'/'+myData.year;
+        console.log(date);
         document.getElementById("comicTitle").innerHTML = myData.title;
+        document.getElementById("datePublished").innerHTML = date;
         document.getElementById("comicPic").setAttribute("src", myData.img);
+        document.getElementById("comicPic").setAttribute("alt", myData.alt);
     })
     .catch(error => console.log(error))
 }
