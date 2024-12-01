@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+        "name": "Project 1",
+        "exampleText": "This is Project 1"
+        }, 
+        
+        {
+        "name": "Project 2",
+        "exampleText": "This is Project 2"
+        } 
+    ]
+
+}    

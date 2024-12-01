@@ -9,5 +9,5 @@ fetch("jsProject.json")
     })
 
     function parseData(data) {
-        
+        document.getElementById("projects").innerHTML = data.projects[o].name;
     }
