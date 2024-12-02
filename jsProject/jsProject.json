@@ -1,9 +1,9 @@
 {
     "projects": [
         {
-        "name": "Project 1",
-        "mainimg": "/img/",
-        "subdomain": "project_1",
+        "name": "Reframing the Portrait",
+        "mainimg": "jsProject/img/reframingportraitprojectforphone Cover.jpg",
+        "subdomain": "reframing_the_portrait",
         "abstract": "",
         "category": [],
         "images": [],

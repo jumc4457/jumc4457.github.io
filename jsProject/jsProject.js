@@ -11,5 +11,6 @@ fetch("/jsProject/jsProject.json")
     function parseData(data) {
         for (i=0; i<data.projects.length; i++) {
         document.getElementById("projects").innerHTML += (data.projects[i].name+"<br>");
+        document.getElementById("mainimg").setAttribute("src", data.projects.mainimg);
         }
     }
