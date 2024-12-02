@@ -1,4 +1,4 @@
-fetch("jsProject.json")
+fetch("/jsProject/jsProject.json")
     .then(response =>{
         return response.json();
     }).then(projects =>{
@@ -9,5 +9,5 @@ fetch("jsProject.json")
     })
 
     function parseData(data) {
-        document.getElementById("projects").innerHTML = data.projects[o].name;
+        document.getElementById("projects").innerHTML = data.projects[0].name;
     }
