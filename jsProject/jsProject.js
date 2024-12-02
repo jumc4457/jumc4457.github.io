@@ -9,5 +9,7 @@ fetch("/jsProject/jsProject.json")
     })
 
     function parseData(data) {
-        document.getElementById("projects").innerHTML = data.projects[0].name;
+        for (i=0; i<data.projects.length; i++) {
+        document.getElementById("projects").innerHTML += (data.projects[i].name+"<br>");
+        }
     }

@@ -2,13 +2,33 @@
     "projects": [
         {
         "name": "Project 1",
-        "exampleText": "This is Project 1"
+        "mainimg": "/img/",
+        "subdomain": "project_1",
+        "abstract": "",
+        "category": [],
+        "images": [],
+        "video": []
         }, 
         
         {
         "name": "Project 2",
-        "exampleText": "This is Project 2"
-        } 
+        "mainimg": "/img/",
+        "subdomain": "project_2",
+        "abstract": "",
+        "category": [],
+        "images": [],
+        "video": []
+        },
+
+        {
+        "name": "Project 3",
+        "mainimg": "/img/",
+        "subdomain": "project_3",
+        "abstract": "",
+        "category": [],
+        "images": [],
+        "video": []    
+        }
     ]
 
 }    
