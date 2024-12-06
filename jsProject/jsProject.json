@@ -2,30 +2,33 @@
     "projects": [
         {
         "name": "Reframing the Portrait",
-        "mainimg": "jsProject/img/reframingportraitprojectforphone Cover.jpg",
+        "subtitle": "ATLS2100 Photography Project",
+        "mainimg": "/jsProject/img/reframingportraitprojectforphone Page 1.jpg",
         "subdomain": "reframing_the_portrait",
-        "abstract": "",
-        "category": [],
+        "abstract": "I photographed my guitars blah blah",
+        "category": ["good"],
         "images": [],
         "video": []
         }, 
         
         {
         "name": "Project 2",
-        "mainimg": "/img/",
+        "subtitle": "Project 2",
+        "mainimg": "/jsProject/img/reframingportraitprojectforphone Page 2.jpg",
         "subdomain": "project_2",
-        "abstract": "",
-        "category": [],
+        "abstract": "gbregb jvbwjf wbfjkwbfw jkefnwjkf",
+        "category": ["bad"],
         "images": [],
         "video": []
         },
 
         {
         "name": "Project 3",
-        "mainimg": "/img/",
+        "subtitle": "Project 3",
+        "mainimg": "/jsProject/img/reframingportraitprojectforphone Page 3.jpg",
         "subdomain": "project_3",
-        "abstract": "",
-        "category": [],
+        "abstract": "rief nwovnjner ownedfjnf",
+        "category": ["good", "bad"],
         "images": [],
         "video": []    
         }

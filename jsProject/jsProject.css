@@ -1,0 +1,43 @@
+body {
+    background-color: maroon;
+}
+
+body p, h1, h2, h3, h4 {
+    color: white;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 20vw;
+}
+
+#projects a {
+    text-decoration: none;
+    color: black;
+}
+
+.project:hover {
+    background-color:rgb(181, 101, 101);
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 10px;
+    text-wrap: wrap;
+}
+
+.project img {
+    width: 30vw;
+    margin: 20px;
+}
+
+#buttons {
+    display:flex;
+    justify-content: center;
+}
+
+#buttons button {
+    margin: 10px;
+}
