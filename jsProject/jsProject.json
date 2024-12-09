@@ -3,32 +3,32 @@
         {
         "name": "Reframing the Portrait",
         "subtitle": "ATLS2100 Photography Project",
-        "mainimg": "/jsProject/img/reframingportraitprojectforphone Page 1.jpg",
+        "mainimg": "/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 1.jpg",
         "subdomain": "reframing_the_portrait",
-        "abstract": "I photographed my guitars blah blah",
-        "category": ["good"],
-        "images": [],
+        "abstract": "For our first Image project, I chose my guitars at the subject for portraiture. I have two of them, and tried to stylize the photos differently to mimic the kinds of music played on each.",
+        "category": ["image"],
+        "images": ["/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 1.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 2.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 3.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 4.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 5.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 6.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 7.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 8.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 9.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 10.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 11.jpg"],
         "video": []
         }, 
         
         {
-        "name": "Project 2",
-        "subtitle": "Project 2",
-        "mainimg": "/jsProject/img/reframingportraitprojectforphone Page 2.jpg",
-        "subdomain": "project_2",
-        "abstract": "gbregb jvbwjf wbfjkwbfw jkefnwjkf",
-        "category": ["bad"],
+        "name": "Colorado Symphony Orchestra Webpage",
+        "subtitle": "ATLS2300 CSS Project",
+        "mainimg": "/jsProject/img/cssProject/Screenshot 2024-12-08 at 7.22.18 PM.png",
+        "subdomain": "colorado_symphony_orchestra_webpage",
+        "abstract": "For our second project in Web, we worked in groups to revamp the Colorado Symphony Orchestra's webpage.",
+        "category": ["web"],
         "images": [],
         "video": []
         },
 
         {
-        "name": "Project 3",
-        "subtitle": "Project 3",
-        "mainimg": "/jsProject/img/reframingportraitprojectforphone Page 3.jpg",
-        "subdomain": "project_3",
-        "abstract": "rief nwovnjner ownedfjnf",
-        "category": ["good", "bad"],
+        "name": "Moving Image Project",
+        "subtitle": "ATLS2100 Video Project",
+        "mainimg": "/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.56.34 PM.png",
+        "subdomain": "moving_image_project",
+        "abstract": "For our second project in Image, I chose to tell the story of the day leading up to my band's show. I included clips of solo practice, full band practice, and the show itself (which sadly ended up being phone clips because I forgot to bring the camera).",
+        "category": ["image"],
         "images": [],
         "video": []    
         }
