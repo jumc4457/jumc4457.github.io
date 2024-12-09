@@ -6,10 +6,14 @@ body p, h1, h2, h3, h4 {
     color: white;
 }
 
+#title {
+    text-align: center;
+}
+
 #projects {
     display: flex;
     flex-direction: column;
-    margin: 10vh 15vw;
+    margin: 10vh 20vw;
 }
 
 #projects a {
