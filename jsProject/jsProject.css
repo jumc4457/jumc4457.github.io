@@ -1,13 +1,15 @@
 body {
-    background-color: maroon;
+    background-color: rgb(255, 255, 255);
 }
 
 body p, h1, h2, h3, h4 {
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family: "articulat-cf", sans-serif;
 }
 
 h1 {
     font-size: 3em;
+    font-family: "articulat-heavy-cf", sans-serif;
 }
 
 #title {
@@ -17,7 +19,9 @@ h1 {
 #projects {
     display: flex;
     flex-direction: column;
-    margin: 10vh 20vw;
+    margin: 10vh 10vw;
+    border: 2vw #6e88a1;
+    border-style: none none none solid;
 }
 
 #projects a {
@@ -26,13 +30,13 @@ h1 {
 }
 
 .project:hover {
-    background-color:rgb(181, 101, 101);
+    background-color:#6e88a1;
 }
+
 .project {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
-    padding: 10px;
+    padding: 30px;
     text-wrap: wrap;
 }
 
@@ -48,6 +52,9 @@ h1 {
 
 #buttons button {
     margin: 10px;
+    background-color:#6e88a1;
+    color: white;
+    font-family: "articulat-cf", sans-serif;
 }
 
 .thumb-bar {
@@ -61,6 +68,10 @@ h1 {
   .thumb-bar img {
     width: 5vw;
     margin: 5px;
+  }
+
+  .thumb-bar img:hover {
+    background-color:#6e88a1;
   }
 
   .displayed-img {
@@ -80,4 +91,8 @@ h1 {
   #projbody {
     margin-left: 20vw;
     margin-right: 20vw;
+  }
+
+  #abstract {
+    margin-bottom: 5vh;
   }
