@@ -14,7 +14,7 @@ fetch("/jsProject/jsProject.json")
         /*document.getElementById("imageCheck").setAttribute("src", data.projects[0].mainimg);*/
         for (let i=0; i<data.projects.length; i++) {
         document.getElementById("projects").innerHTML += 
-        `<a href="/jsProject/${data.projects[i].subdomain}.html">
+        `<a href="/jsProject/html/${data.projects[i].subdomain}.html">
         <div class="row project" id="${data.projects[i].subdomain}">
             <div class="projectImg"><img src="${data.projects[i].mainimg}"></img></div>
             <div class="description"><h2>${data.projects[i].name}</h2>

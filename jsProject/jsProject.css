@@ -6,6 +6,10 @@ body p, h1, h2, h3, h4 {
     color: white;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 #title {
     text-align: center;
 }
@@ -45,3 +49,35 @@ body p, h1, h2, h3, h4 {
 #buttons button {
     margin: 10px;
 }
+
+.thumb-bar {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .thumb-bar img {
+    width: 5vw;
+    margin: 5px;
+  }
+
+  .displayed-img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    padding:5px;
+    margin-bottom: 20px;
+  }
+
+  #slideshow h1 {
+    text-align: center;
+  }
+
+  #projbody {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
