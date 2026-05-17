@@ -6,7 +6,7 @@
         "mainimg": "/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 1.jpg",
         "subdomain": "reframing_the_portrait",
         "abstract": "For our first Image project, I chose my guitars as the subject for portraiture. I have two of them, and tried to stylize the photos differently to mimic the kinds of music played on each.",
-        "category": ["image"],
+        "category": ["ctd"],
         "images": ["/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 1.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 2.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 3.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 4.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 5.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 6.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 7.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 8.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 9.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 10.jpg","/jsProject/img/reframingThePortrait/reframingportraitprojectforphone Page 11.jpg"],
         "video": []
         }, 
@@ -17,7 +17,7 @@
         "mainimg": "/jsProject/img/cssProject/Screenshot 2024-12-08 at 7.22.18 PM.png",
         "subdomain": "colorado_symphony_orchestra_webpage",
         "abstract": "For our second project in Web, we worked in groups to revamp the Colorado Symphony Orchestra's webpage.",
-        "category": ["web"],
+        "category": ["ctd"],
         "images": ["/jsProject/img/cssProject/Screenshot 2024-12-08 at 7.22.18 PM.png","/jsProject/img/cssProject/Screenshot 2024-12-08 at 7.22.31 PM.png","/jsProject/img/cssProject/Screenshot 2024-12-08 at 7.23.22 PM.png","/jsProject/img/cssProject/Screenshot 2024-12-08 at 7.23.59 PM.png","/jsProject/img/cssProject/Screenshot 2024-12-08 at 7.24.12 PM.png"],
         "video": []
         },
@@ -28,7 +28,7 @@
         "mainimg": "/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.56.34 PM.png",
         "subdomain": "moving_image_project",
         "abstract": "For our second project in Image, I chose to tell the story of the day leading up to my band's show. I included clips of solo practice, full band practice, and the show itself (which sadly ended up being phone clips because I forgot to bring the camera).",
-        "category": ["image"],
+        "category": ["ctd"],
         "images": ["/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.53.39 PM.png","/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.54.08 PM.png","/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.54.34 PM.png","/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.54.49 PM.png","/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.55.03 PM.png","/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.55.31 PM.png","/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.56.09 PM.png","/jsProject/img/videoProject/Screenshot 2024-12-08 at 7.56.34 PM.png"],
         "video": []    
         }
